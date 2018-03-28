@@ -1,0 +1,284 @@
+body {
+    font-size: 32px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    color:#fff;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0e0d41+17,0e0d41+36,a22220+80,a22220+80,a22220+85,a22220+85,a22220+91,a22220+100,2725bb+100 */
+    background: rgb(14,13,65); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(14,13,65,1) 17%, rgba(14,13,65,1) 36%, rgba(162,34,32,1) 80%, rgba(162,34,32,1) 80%, rgba(162,34,32,1) 85%, rgba(162,34,32,1) 85%, rgba(162,34,32,1) 91%, rgba(162,34,32,1) 100%, rgba(39,37,187,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(14,13,65,1) 17%,rgba(14,13,65,1) 36%,rgba(162,34,32,1) 80%,rgba(162,34,32,1) 80%,rgba(162,34,32,1) 85%,rgba(162,34,32,1) 85%,rgba(162,34,32,1) 91%,rgba(162,34,32,1) 100%,rgba(39,37,187,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(14,13,65,1) 17%,rgba(14,13,65,1) 36%,rgba(162,34,32,1) 80%,rgba(162,34,32,1) 80%,rgba(162,34,32,1) 85%,rgba(162,34,32,1) 85%,rgba(162,34,32,1) 91%,rgba(162,34,32,1) 100%,rgba(39,37,187,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e0d41', endColorstr='#2725bb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    font-family: 'Cabin', Helvetica, Arial, sans-serif;
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: rgba(14,13,65,1);
+}
+
+.panel-heading {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(14,13,65,1);
+    z-index: 3;
+    left: 0;
+    height:200px;
+}
+
+.panel-body {
+    padding-top: 225px;
+    position: relative;
+}
+
+caption {
+    font-size: 32px;
+    color:#fff;
+}
+
+div {
+    margin:0px;
+    padding:0px;
+    border:0px;
+}
+
+table {
+    margin:0px;
+    padding:0px;
+    border:0px;
+}
+
+select {
+    margin-bottom: 20px;
+    font-size: 16px;
+    border:none;
+    padding:6px 6px 6px 6px;
+    border-radius:8px;
+    background:#ffffff;
+    color:black;
+}
+
+option {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 56px;
+    font-family: 'Lobster', Georgia, Times, serif;
+    color:#d34836;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+p {font-size: 1.5em;}
+
+#header {
+    width:100%;
+}
+
+#menu, #chrono, #titleLogo {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#menu {
+    padding-top: 15px;
+    padding-left: 15px;
+
+}
+#menuImage {
+    height: 40px;
+}
+
+#chrono {
+    padding-top:25px;
+    padding-right:25px;
+    float:right;
+}
+
+#titleLogo {
+    position: absolute; /* postulat de départ */
+    top: 50%; left: 50%; /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#logoImage {
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 125px;
+}
+
+#parameters {
+    width:100%;
+    padding-top: 75px;
+}
+#parties {
+    float:left;
+    padding-left: 15px;
+}
+#players {
+    padding-left: 15px;
+    float:left;
+}
+
+*::-webkit-scrollbar { display: none; }
+
+@media screen and (max-width: 1200px) {
+    body {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    select {
+        margin-bottom: 10px;
+        font-size: 12px;
+        padding:3px 3px 3px 3px;
+        border-radius:8px;
+    }
+    option {
+        font-size: 12px;
+    }
+    caption {
+        font-size: 16px;
+    }
+    .panel-heading {
+        position: fixed;
+        width: 100%;
+        z-index: 4;
+        left: 0;
+        height:100px;
+    }
+    .panel-body {
+        padding-top: 125px;
+        position: relative;
+    }
+    #menuImage {
+        height: 30px;
+    }
+    #logoImage {
+        padding-top: 5px;
+        height: 90px;
+    }
+    #parameters {
+        padding-top: 15px;
+    }
+    #chrono {
+        font-size: 20px;
+    }
+    #titleLogo {
+        position: absolute; /* postulat de départ */
+        top: 50%; left: 50%; /* à 50%/50% du parent référent */
+        transform: translate(-50%, -50%);
+        height: 100px;
+    }
+    #logo {
+        float:left;
+    }
+    #title {
+        float:right;
+        padding-top: 30px;
+        padding-left: 15px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    body {
+        font-size: 10px;
+    }
+    caption {
+        font-size: 12px;
+    }
+    select {
+        margin-bottom: 0px;
+        font-size: 10px;
+    }
+    divtitle {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .panel-heading {
+        height:100px;
+    }
+    #menu {
+        padding-top: 10px;
+        padding-left: 0px;
+    }
+    #menuImage {
+        height: 20px;
+    }
+    #logoImage {
+        padding-top: 10px;
+        height: 90px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+    #title {
+        float:right;
+        padding-top: 40px;
+        padding-left: 10px;
+    }
+    #chrono {
+        font-size: 18px;
+        padding-top:10px;
+        padding-right:0px;
+        float:right;
+    }
+
+    #recherche {
+        width: 100%;
+        padding-bottom:15px;
+    }
+    #textInput {
+        float:left;
+        border:none;
+        padding:6px 6px 6px 6px;
+        margin-right: 15px;
+        border-radius:4px;
+        color:black;
+    }
+    #buttonInput {
+        border:none;
+        padding:6px 6px 6px 6px;
+        border-radius:4px;
+        background:#d34836;
+        color:black;
+    }
+
+    divtitle {
+        color:#ffffff;
+    }
+    input, button {
+        font-size: 14px;
+    }
+
+    #infos {
+        width: 100%;
+        padding-bottom:15px;
+    }
+    #Score2 {
+        border:none;
+        margin: 0;
+        padding: 0;
+        float:left;
+    }
+    #Rang2 {
+        border:none;
+        margin: 0;
+        padding: 0;
+        float:right;
+    }
+    #erreurInput {
+        font-size: 14px;
+        padding-bottom:15px;
+    }
+}
